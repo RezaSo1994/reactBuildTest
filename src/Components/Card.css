@@ -1,0 +1,42 @@
+.card{
+    width: 75%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgb(121, 117, 117);
+}
+.card-body {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    
+}
+.card-body h2 {
+    color: rgba(77, 109, 109, 0.884);
+    margin-bottom: 0.6vh;
+}
+.card-body h4 {
+    color: rgba(77, 109, 109, 0.589);
+    margin-bottom: 0.4vh;
+}
+.card-bar{
+    width: 200px;
+    background-color: rgba(191, 201, 198, 0.842);
+    border-radius: 10px;
+    height: 15px;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 0px 3px 4px rgba(121, 117, 117, 0.493);
+}
+.card-bar-up{
+    background-color: rgba(101, 235, 235, 0.733);
+    z-index: 12;
+}
